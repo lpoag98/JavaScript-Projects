@@ -61,10 +61,36 @@ S = "25"
 T = 14
 function my_Function_Equal_5()  {
     document.getElementById("Equal_5").innerHTML = S === T //false
+
 }
+
 //different data matching value
 Q = 17
 R = 18
 function my_Function_Equal_6()  {
     document.getElementById("Equal_6").innerHTML = Q === R //false
+
+}
+
+//LOGICAL OPERATORS
+
+ document.write(10 < 14 || 1 > 9)
+function logi_Operator()   {
+    document.getElementById("operator1").innerHTML = 10 < 14 || 1 > 9
+}
+
+function logi_Operator2()   {
+    document.getElementById("operator2").innerHTML = 10 > 14 || 1 > 9
+}
+
+//LOGICAL OPERATORS
+
+//NOT OPERATOR
+
+function not_Function_1()   {
+    document.getElementById("not_1").innerHTML = !(20 > 10);
+}
+
+function not_Function_2()   {
+    document.getElementById("not_2").innerHTML = !(5 > 10);
 }
