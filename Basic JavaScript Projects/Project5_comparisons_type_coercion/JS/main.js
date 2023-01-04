@@ -74,13 +74,22 @@ function my_Function_Equal_6()  {
 
 //LOGICAL OPERATORS
 
- document.write(10 < 14 || 1 > 9)
-function logi_Operator()   {
-    document.getElementById("operator1").innerHTML = 10 < 14 || 1 > 9
+
+function logi_Operator_11()   {
+    document.getElementById("operator11").innerHTML = (5 > 10 && 15 > 20);
+}
+
+function logi_Operator_12()   {
+    document.getElementById("operator12").innerHTML = (5 < 10 && 15 < 20);
+}
+
+ 
+function logi_Operator1()   {
+    document.getElementById("operator1").innerHTML = (10 < 14 || 1 > 9);
 }
 
 function logi_Operator2()   {
-    document.getElementById("operator2").innerHTML = 10 > 14 || 1 > 9
+    document.getElementById("operator2").innerHTML = (10 > 14 || 1 > 9);
 }
 
 //LOGICAL OPERATORS
@@ -94,3 +103,12 @@ function not_Function_1()   {
 function not_Function_2()   {
     document.getElementById("not_2").innerHTML = !(5 > 10);
 }
+
+//TYPEOF OPERATOR
+
+document.write(typeof "Donkey");
+
+document.write(typeof 6);
+
+//TYPEOF OPERATOR
+
