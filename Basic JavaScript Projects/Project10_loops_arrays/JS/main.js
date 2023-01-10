@@ -7,7 +7,7 @@ function Count_to_ten() {
   }
   document.getElementById("Counting_to_ten").innerHTML = Digit;
 }
-//LOOPS
+//WHILE LOOPS
 
 //FOR
   var Instruments=["Guitar", "Drums", "Piano", "Bass", "Violin", "Trumpet", "Flute"];
